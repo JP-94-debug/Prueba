@@ -1,0 +1,68 @@
+Instalamos git
+Abrimos cmd
+git --version
+git config --global user.name "JeanPierre"
+git config --global user.mail"jp.gonzalescastro@gmail.com"
+
+Creamos una carpeta "mi-primer-repositorio"
+Abrimos cmd en esa carpeta
+Creamos un archivo
+echo hola mundo > "inderx.html"
+
+Crear repositorio
+git init
+crea el repositorio como oculto
+
+Ver el estado del repositorio
+git status
+git add .
+git status
+
+Mensaje para cambios en el repositorio
+git commit -m "Mi primer commit"
+git status
+
+Cambiamos el codigo del archivo .html
+
+git add .
+git satus
+git commit -m "Modificacion index.html"
+
+Ver nuestros commits (historial)
+git log
+
+Para volver a un commit. Crear una rama
+Copiar la linea de codigo
+git checkout "ctrl v"
+git log
+
+Ver nuestras ramas
+git branch
+
+Para volver a la rama principal
+git switch master
+
+Hacemos un cambio en el archivo .html
+git add .
+git commit -m "chau mundo"
+git log
+Se creó una nueva rama
+
+Para guardar como una nueva rama
+git switch -c "rama2"
+
+git branch
+git switch master
+
+Borrar linea de comandos
+cls
+
+Vinculo con GitHub
+git remote add origin "URL de github"
+git push origin master
+
+Clonar un repositorio
+git clon "URL"
+
+
+
